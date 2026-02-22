@@ -6,10 +6,10 @@ schema:
   name: "五笔·拼音"
   version: "0.9"
   author:
-    - 發明人 王永民先生
+    - 发明人 王永民先生
   description: |
-    五筆字型86版＋漢語拼音混合輸入。
-    碼表源自 ibus-table
+    五笔字型86版＋汉语拼音混合输入。
+    码表源自 ibus-table
   dependencies:
     - pinyin_simp
 
@@ -20,7 +20,7 @@ switches:
   - name: full_shape
     states: [ 半角, 全角 ]
   - name: extended_charset
-    states: [ 常用, 增廣 ]
+    states: [ 常用, 增广 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
 
@@ -47,7 +47,7 @@ engine:
 
 speller:
   delimiter: " ;'"
-  #max_code_length: 4  # 四碼頂字上屏
+  #max_code_length: 4  # 四码顶字上屏
 
 translator:
   dictionary: wubi86

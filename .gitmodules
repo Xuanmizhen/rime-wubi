@@ -1,0 +1,6 @@
+[submodule "db/Artificial-Intelligence-Terminology-Database"]
+	path = db/Artificial-Intelligence-Terminology-Database
+	url = https://github.com/jiqizhixin/Artificial-Intelligence-Terminology-Database.git
+[submodule "db/UnicodeCJK-WuBi06"]
+	path = db/UnicodeCJK-WuBi06
+	url = https://github.com/CNMan/UnicodeCJK-WuBi06.git

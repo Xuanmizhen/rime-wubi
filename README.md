@@ -1,6 +1,6 @@
 # 五笔字型
 
-本输入方案基于[“配方： ℞ **wubi**”](https://github.com/rime/rime-wubi)改编。目前主要的更改是将部分文件中的繁体中文转为简体中文。
+本输入方案基于[“配方： ℞ **wubi**”](https://github.com/rime/rime-wubi)改编。目前主要的更改是将部分文件中的繁体中文转为简体中文，并增加了数据子模块。
 
 [Rime](https://rime.im) 五笔字型输入方案
 

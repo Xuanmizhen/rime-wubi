@@ -12,3 +12,4 @@ Xuanmizhen <xuanmizhen@icloud.com> : (LGPL)
   wubi_pinyin.schema.yaml
   wubi86.schema.yaml
   .gitmodules
+  src/

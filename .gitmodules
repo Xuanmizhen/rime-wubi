@@ -4,3 +4,6 @@
 [submodule "db/UnicodeCJK-WuBi06"]
 	path = db/UnicodeCJK-WuBi06
 	url = https://github.com/CNMan/UnicodeCJK-WuBi06.git
+[submodule "db/rime-data"]
+	path = db/rime-data
+	url = https://github.com/CNMan/rime-data.git

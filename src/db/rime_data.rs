@@ -1,3 +1,4 @@
+use crate::rime_yaml;
 use log::{debug, info};
 use std::{
     fs,
@@ -20,26 +21,13 @@ pub struct RimeDict {
     data: Vec<RimeDictEntry>,
 }
 
-/// Waits for a specific line in the given iterator of lines.
-///
-/// Returns `Ok(())` if the target line is found, or an error if the end of the iterator is reached without finding the target.
-fn wait_for(lines: &mut impl Iterator<Item = io::Result<String>>, target: &str) -> Result<()> {
-    for line in lines {
-        if line? == target {
-            return Ok(());
-        }
-    }
-    Err(Error::Parse(ParseError::Syntax))
-}
-
 impl RimeDict {
     pub fn load<P: AsRef<Path>>(path: P) -> Result<Self> {
         info!("Loading Rime dict from {}", path.as_ref().display());
-        let mut lines = io::BufReader::new(fs::File::open(path)?).lines();
-        wait_for(&mut lines, "---")?;
-        wait_for(&mut lines, "...")?;
+        let mut rdr = io::BufReader::new(fs::File::open(path)?);
+        rime_yaml::skip_until_dict_data(&mut rdr)?.ok_or(Error::Parse(ParseError::Syntax))?;
         let mut data = Vec::new();
-        for line in lines {
+        for line in rdr.lines() {
             if let Some(entry) = RimeDictEntry::build(line?)? {
                 data.push(entry);
             }
@@ -81,9 +69,9 @@ impl RimeDictEntry {
 
 #[derive(Error, Debug)]
 pub enum Error {
-    #[error("IO error: {0}")]
+    #[error("IO error")]
     Io(#[from] io::Error),
-    #[error("parse error: {0}")]
+    #[error("parse error")]
     Parse(#[from] ParseError),
 }
 
@@ -92,8 +80,8 @@ pub enum Error {
 pub enum ParseError {
     #[error("invaid syntax")]
     Syntax,
-    #[error("invalid weight value: {0}")]
-    ParseWeight(num::ParseIntError),
+    #[error("invalid weight value")]
+    ParseWeight(#[source] num::ParseIntError),
 }
 
 pub type Result<T> = result::Result<T, Error>;

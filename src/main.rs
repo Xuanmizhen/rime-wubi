@@ -1,20 +1,26 @@
 #![forbid(unsafe_code)]
 
 use log::{error, info};
-use std::{error::Error as _, process::ExitCode};
+use std::{error::Error, process::ExitCode};
 
 pub mod db;
 pub mod generate;
-pub(crate) mod rime_yaml;
+pub(crate) mod rime;
+
+pub fn run() -> Result<(), Box<dyn Error>> {
+    let dict = db::rime_data::load_and_merge_dicts()?;
+    generate::generate_yaml(&dict)?;
+    Ok(())
+}
 
 fn main() -> ExitCode {
     env_logger::init();
-    if let Err(e) = generate::generate_yaml() {
-        error!("Failed to generate YAML: {e}");
-        let mut source = e.source();
-        while let Some(s) = source {
-            info!("Caused by: {s}");
-            source = s.source();
+    if let Err(e) = run() {
+        let mut error = e.as_ref();
+        error!("Task failed: {e}");
+        while let Some(source) = error.source() {
+            info!("Caused by: {source}");
+            error = source;
         }
         ExitCode::FAILURE
     } else {

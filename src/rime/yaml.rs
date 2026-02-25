@@ -11,7 +11,7 @@ fn wait_for(rdr: &mut impl BufRead, target: &str) -> Result<Option<()>> {
     Ok(None)
 }
 
-pub(crate) fn skip_until_dict_data(rdr: &mut impl BufRead) -> Result<Option<()>> {
+pub fn skip_until_dict_data(rdr: &mut impl BufRead) -> Result<Option<()>> {
     if wait_for(rdr, "---\n")?.is_some() {
         wait_for(rdr, "...\n")
     } else {

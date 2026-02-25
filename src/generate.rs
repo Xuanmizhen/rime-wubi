@@ -1,11 +1,18 @@
-use crate::rime_yaml;
+use crate::rime::*;
 use log::trace;
-use std::{fs, io::Seek, path::PathBuf, sync::LazyLock};
+use std::{
+    fs,
+    io::{Seek, Write},
+    path::PathBuf,
+    sync::LazyLock,
+};
 use thiserror::Error;
 
 pub static PATH: LazyLock<PathBuf> = LazyLock::new(|| "wubi_nc.dict.yaml".into());
 
-pub fn generate_yaml() -> Result<()> {
+pub fn generate_yaml(dict: &Dict) -> Result<()> {
+    let buf_to_write = format!("\n{}", String::from(dict));
+
     let file = fs::OpenOptions::new()
         .write(true)
         .read(true)
@@ -13,7 +20,7 @@ pub fn generate_yaml() -> Result<()> {
         .map_err(Error::TargetIo)?;
     trace!("Target file {} opened", PATH.display());
     let mut rdr = std::io::BufReader::new(file);
-    rime_yaml::skip_until_dict_data(&mut rdr)
+    yaml::skip_until_dict_data(&mut rdr)
         .map_err(Error::TargetIo)?
         .ok_or(Error::TargetSyntax)?;
     let buf_len = rdr.buffer().len() as i64;
@@ -21,7 +28,9 @@ pub fn generate_yaml() -> Result<()> {
     let mut pos = file
         .seek(std::io::SeekFrom::Current(-buf_len))
         .map_err(Error::TargetIo)?;
-    todo!();
+    file.write_all(buf_to_write.as_bytes())
+        .map_err(Error::TargetIo)?;
+    pos += buf_to_write.len() as u64;
     trace!("Truncating target file at position {pos}");
     file.set_len(pos).map_err(Error::TargetIo)?;
     Ok(())

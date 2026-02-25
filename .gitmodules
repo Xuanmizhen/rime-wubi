@@ -7,3 +7,6 @@
 [submodule "db/rime-data"]
 	path = db/rime-data
 	url = https://github.com/CNMan/rime-data.git
+[submodule "db/THUOCL"]
+	path = db/THUOCL
+	url = https://github.com/thunlp/THUOCL.git

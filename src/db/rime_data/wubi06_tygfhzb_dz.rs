@@ -9,11 +9,6 @@ pub fn load_dict() -> Result<Dict> {
 }
 
 pub fn is_valid(dict: &Dict) -> bool {
-    for entry in dict.entries() {
-        if entry.code.is_empty() {
-            return false;
-        }
-    }
     dict.contains_chars() && !dict.contains_phrases()
 }
 

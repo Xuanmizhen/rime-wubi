@@ -116,6 +116,9 @@ impl FromStr for DictEntry {
             return Err(ParseDictEntryError::Code(code));
         }
         let weight = if let Some(weight) = items.next() {
+            if let Some(item) = items.next() {
+                return Err(ParseDictEntryError::TooManyItems(item.to_owned()));
+            }
             Some(weight.parse().map_err(ParseDictEntryError::ParseWeight)?)
         } else {
             None
@@ -152,6 +155,8 @@ pub enum ParseDictEntryError {
     Code(String),
     #[error("invalid weight value")]
     ParseWeight(#[source] num::ParseIntError),
+    #[error("too many items: {0}")]
+    TooManyItems(String),
 }
 
 pub type Result<T> = result::Result<T, Error>;

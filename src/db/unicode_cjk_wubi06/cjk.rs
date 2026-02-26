@@ -1,9 +1,8 @@
 use log::info;
 use std::{
-    collections::BTreeMap,
+    collections::{BTreeMap, HashSet},
     fs,
     io::{self, BufRead},
-    ops::Index,
     path::{Path, PathBuf},
     result,
     sync::LazyLock,
@@ -13,7 +12,8 @@ use thiserror::Error;
 pub static PATH: LazyLock<PathBuf> = LazyLock::new(|| super::PATH.join("CJK.txt"));
 
 pub struct Table {
-    code_to_char: BTreeMap<String, char>,
+    code_to_char: BTreeMap<String, HashSet<char>>,
+    pub(crate) char_to_code: BTreeMap<char, String>,
 }
 
 impl Table {
@@ -22,20 +22,88 @@ impl Table {
         let rdr = io::BufReader::new(fs::File::open(path)?);
         Self::try_from_iter(rdr.lines().map(|line| Ok(line?)))
     }
-}
 
-impl Index<&String> for Table {
-    type Output = char;
+    pub fn insert(&mut self, ch: char, code: String) {
+        self.code_to_char
+            .entry(code.clone())
+            .and_modify(|chs| {
+                chs.insert(ch);
+            })
+            .or_insert_with(|| [ch].into_iter().collect());
+        self.char_to_code.insert(ch, code);
+    }
 
-    fn index(&self, index: &String) -> &Self::Output {
-        &self.code_to_char[index]
+    pub fn contains_char(self, ch: char) -> bool {
+        self.char_to_code.contains_key(&ch)
+    }
+
+    pub fn get_phrase_code(&self, phrase: &str) -> String {
+        let mut chars = phrase.chars();
+        let first = chars.next().unwrap();
+        let first = self
+            .char_to_code
+            .get(&first)
+            .unwrap_or_else(|| {
+                dbg!(&first);
+                panic!()
+            })
+            .as_bytes();
+        match chars.next() {
+            Some(second) => {
+                let second = self.char_to_code[&second].as_bytes();
+                match chars.next() {
+                    Some(third) => {
+                        let third = self.char_to_code[&third].as_bytes();
+                        match chars.next() {
+                            Some(last) => {
+                                let last = self.char_to_code[&last].as_bytes();
+                                format!(
+                                    "{}{}{}{}",
+                                    first[0] as char,
+                                    second[0] as char,
+                                    third[0] as char,
+                                    last[0] as char
+                                )
+                            }
+                            None => format!(
+                                "{}{}{}{}",
+                                first[0] as char,
+                                second[0] as char,
+                                third[0] as char,
+                                third[1] as char
+                            ),
+                        }
+                    }
+                    None => format!(
+                        "{}{}{}{}",
+                        first[0] as char, first[1] as char, second[0] as char, second[1] as char
+                    ),
+                }
+            }
+            None => first.iter().map(|byte| *byte as char).collect(),
+        }
     }
 }
 
-impl FromIterator<(String, char)> for Table {
-    fn from_iter<T: IntoIterator<Item = (String, char)>>(iter: T) -> Self {
-        let code_to_char = iter.into_iter().collect();
-        Self { code_to_char }
+impl FromIterator<(char, String)> for Table {
+    fn from_iter<T: IntoIterator<Item = (char, String)>>(iter: T) -> Self {
+        let mut code_to_char: BTreeMap<String, HashSet<char>> = Default::default();
+        let char_to_code = iter
+            .into_iter()
+            .map(|(ch, code)| {
+                code_to_char
+                    .entry(code.clone())
+                    .and_modify(|chs| {
+                        chs.insert(ch);
+                    })
+                    .or_insert_with(|| [ch].into_iter().collect());
+                (ch, code)
+            })
+            .collect();
+        Self {
+            code_to_char,
+            char_to_code,
+        }
     }
 }
 
@@ -57,7 +125,7 @@ impl Table {
                 let mut code = code.chars();
                 if let Some('\t') = code.next() {
                     let code = code.collect();
-                    Ok((code, ch))
+                    Ok((ch, code))
                 } else {
                     Err(ParseTableError {
                         kind: ErrorKind::Format,

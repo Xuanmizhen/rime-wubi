@@ -4,7 +4,7 @@ pub mod yaml;
 
 #[derive(Debug)]
 pub struct Dict {
-    chars: Vec<DictEntry>,
+    pub(crate) chars: Vec<DictEntry>,
     phrases: Vec<DictEntry>,
 }
 
@@ -24,6 +24,16 @@ impl Dict {
     }
     pub fn contains_both(&self) -> bool {
         self.contains_chars() && self.contains_phrases()
+    }
+
+    pub fn insert_char(&mut self, ch: char, code: String) {
+        let entry = DictEntry {
+            code,
+            weight: None,
+            phrase: ch.into(),
+        };
+        let point = self.chars.partition_point(|e| *e <= entry);
+        self.chars.insert(point, entry);
     }
 
     pub fn chars(&self) -> impl Iterator<Item = &DictEntry> {

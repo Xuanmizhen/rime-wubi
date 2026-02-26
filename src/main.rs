@@ -1,5 +1,6 @@
 #![forbid(unsafe_code)]
 
+use crate::db::unicode_cjk_wubi06::cjk::{self, Table};
 use log::{error, info};
 use std::{error::Error, process::ExitCode};
 
@@ -8,7 +9,9 @@ pub mod generate;
 pub(crate) mod rime;
 
 pub fn run() -> Result<(), Box<dyn Error>> {
-    let dict = db::rime_data::load_and_merge_dicts()?;
+    let mut dict = db::rime_data::load_and_merge_dicts()?;
+    let mut table = Table::load(&*cjk::PATH)?;
+    assert!(db::verify_with(&mut dict, &mut table));
     generate::generate_yaml(&dict)?;
     Ok(())
 }

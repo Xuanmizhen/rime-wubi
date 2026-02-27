@@ -1,7 +1,7 @@
 #![forbid(unsafe_code)]
 
 use crate::db::{
-    artificial_intelligence_terminology_database, custom,
+    artificial_intelligence_terminology_database, custom, thuocl,
     unicode_cjk_wubi06::cjk::{self, Table},
 };
 use log::{error, info};
@@ -21,6 +21,9 @@ pub fn run() -> Result<(), Box<dyn Error>> {
         &table,
         &*artificial_intelligence_terminology_database::DATA_PATH,
     )?;
+    for path in &*thuocl::RECOMMENDED_DATA_PATHS {
+        thuocl::update_dict_from_path(&mut dict, &table, path.as_path())?;
+    }
     generate::generate_yaml(&dict)?;
     Ok(())
 }

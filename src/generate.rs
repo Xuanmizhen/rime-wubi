@@ -1,5 +1,5 @@
 use crate::rime::*;
-use log::trace;
+use log::{info, trace};
 use std::{
     fs,
     io::{Seek, Write},
@@ -11,6 +11,7 @@ use thiserror::Error;
 pub static PATH: LazyLock<PathBuf> = LazyLock::new(|| "wubi_nc.dict.yaml".into());
 
 pub fn generate_yaml(dict: &Dict) -> Result<()> {
+    info!("Generating YAML target file");
     let buf_to_write = format!("\n{}", String::from(dict));
 
     let file = fs::OpenOptions::new()

@@ -10,3 +10,6 @@
 [submodule "db/THUOCL"]
 	path = db/THUOCL
 	url = https://github.com/thunlp/THUOCL.git
+[submodule "db/lexicon"]
+	path = db/lexicon
+	url = https://github.com/skrik2/lexicon

@@ -54,7 +54,7 @@ impl Table {
                 match chars.next() {
                     Some(third) => {
                         let third = self.char_to_code[&third].as_bytes();
-                        match chars.next() {
+                        match chars.last() {
                             Some(last) => {
                                 let last = self.char_to_code[&last].as_bytes();
                                 format!(

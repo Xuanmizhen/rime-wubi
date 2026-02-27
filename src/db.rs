@@ -10,6 +10,7 @@ use unicode_cjk_wubi06::cjk::Table;
 
 pub mod artificial_intelligence_terminology_database;
 pub mod custom;
+pub mod lexicon;
 pub mod rime_data;
 pub mod thuocl;
 pub mod unicode_cjk_wubi06;

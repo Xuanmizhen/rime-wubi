@@ -27963,7 +27963,7 @@ encoder:
 牙印	ahqg	888
 菲尔	ahqi	1782392
 雅尔	ahqi	0
-工具链	ahql	3810
+工具链	ahql	4294967295
 项目外包	ahqq	144
 项目解析	ahqs	128
 牙獐	ahqt	999
@@ -29911,6 +29911,7 @@ encoder:
 世界变换	alyr	281
 共轭方向	alyt	4294967295
 苗族	alyt	2036614
+范畴论	alyw	4294967295
 苗文	alyy	777
 英式	amaa	718325
 黄节	amab	27
@@ -31612,6 +31613,7 @@ encoder:
 殴曳	arjx	888
 区别	arke	22735461
 艾叶	arkf	0
+花括号	arkg	4294967295
 区号	arkg	2615954
 区中	arkh	1133912
 蔸距	arkh	888
@@ -32817,7 +32819,7 @@ encoder:
 茶砖	awdf	999
 东风不与周郎便	awdg	9
 蒋介石	awdg	12454
-工作原理	awdg	32536
+工作原理	awdg	4294967295
 茶厂	awdg	301158
 花厂	awdg	79352
 苍古	awdg	888
@@ -36965,7 +36967,7 @@ encoder:
 防火墙配置	bofs	1535
 函数表达式	bogd	2295
 耿正	bogh	888
-子序列	bogq	11329
+子序列	bogq	4294967295
 耿烈	bogq	888
 子序列问题	bogu	78
 职业素养	bogu	524
@@ -38751,6 +38753,7 @@ encoder:
 子线程	bxtk	19146
 子张问仁于孔子	bxuw	1
 陈继红	bxxa	76
+联结主义	bxyy	4294967295
 及其	byad	48970473
 及期	byad	777
 防范	byai	11570233
@@ -39302,7 +39305,7 @@ encoder:
 双轮	cclw	231244
 双输	cclw	999
 叠累	cclx	888
-双曲	ccma	0
+双曲	ccma	4294967295
 双周	ccmf	316877
 双幅	ccmh	888
 双岗	ccmm	888
@@ -40218,6 +40221,7 @@ encoder:
 对看	cfrh	666
 圣所	cfrn	89744
 对氯	cfrn	44773
+对的	cfrq	4294967295
 对换	cfrq	326548
 对拍	cfrr	905
 对白	cfrr	4951156
@@ -41347,6 +41351,7 @@ encoder:
 又见东风浩荡时	cmaw	2
 观花	cmaw	215207
 观阵	cmbl	888
+双曲函数	cmbo	4294967295
 观台	cmck	48336
 又岂在朝朝暮暮	cmdf	73
 观感	cmdg	725986
@@ -42008,7 +42013,7 @@ encoder:
 巴拉迪	crmp	1173
 对抗网络	crmx	4294967295
 骄兵必败	crnm	36
-双指针	crqf	1579
+双指针	crqf	4294967295
 马拉多拉	crqr	3
 马拉多纳	crqx	1265
 邓白氏编码	crqx	197
@@ -42695,6 +42700,7 @@ encoder:
 不区分大小写	dawd	11410
 大获全胜	dawe	1931
 秦基伟	dawf	123
+左值	dawf	4294967295
 左传	dawf	536826
 厝舍	dawf	888
 左使	dawg	777
@@ -42812,6 +42818,7 @@ encoder:
 胡卫民	dbna	52
 故障屏蔽	dbna	18
 顾惜	dbna	231945
+三阶导	dbnf	4294967295
 顾眉	dbnh	0
 存取臂	dbnk	30
 犬子以田产未置止我	dbnl	1
@@ -45378,6 +45385,7 @@ encoder:
 三陪	dgbu	380083
 三障	dgbu	777
 三限	dgbv	96108
+三阶	dgbw	4294967295
 石阶	dgbw	1114844
 三险	dgbw	88784
 三队	dgbw	0
@@ -48769,7 +48777,7 @@ encoder:
 胡鄂公	dkwc	8
 不患贫而患不安	dkwd	49
 不遗余力	dkwe	12844
-右值	dkwf	792
+右值	dkwf	4294967295
 右侧	dkwm	6317279
 不患人之不己知	dkwp	29
 历史命令窗口	dkww	12
@@ -50042,7 +50050,7 @@ encoder:
 大数据量	dorj	8744
 大业年中炀天子	dork	1
 灰罐	dorm	777
-大数据	dorn	27185
+大数据	dorn	4294967295
 灰气	dorn	888
 百度推广	doro	233
 大数据安全	dorp	100
@@ -50502,6 +50510,7 @@ encoder:
 克尔	dqqi	952882
 克钦	dqqq	0
 布尔搜索	dqrf	22
+三角换元	dqrf	4294967295
 克捷	dqrg	777
 砍掉	dqrh	978137
 克扣	dqrk	537422
@@ -50563,6 +50572,7 @@ encoder:
 大煞风景	dqwj	682
 确保	dqwk	36388947
 布尔代数	dqwo	417
+三角代换	dqwr	4294967295
 砍爷	dqwr	999
 破解分析	dqws	37
 砍伤	dqwt	732021
@@ -50992,6 +51002,7 @@ encoder:
 大松博文	dsfy	12
 不可救药	dsga	401
 不可一世	dsga	951
+大模型	dsga	4294967295
 克林顿	dsgb	22089
 胡根天	dsgd	16
 有机事者必有机心	dsgf	1
@@ -55771,6 +55782,7 @@ encoder:
 遥空	erpw	888
 遥祝	erpy	76116
 邈然	erqd	777
+胖指针	erqf	4294967295
 力挽狂澜	erqi	1512
 貌象	erqk	888
 遥久	erqy	888
@@ -57256,6 +57268,7 @@ encoder:
 地幔	fbmh	76366
 霜降山水清	fbmi	2
 地网	fbmr	197887
+二阶导	fbnf	4294967295
 地层	fbnf	751267
 地蛋	fbnh	888
 地书	fbnn	999
@@ -57815,7 +57828,7 @@ encoder:
 劫抢	fcrw	888
 劫掠	fcry	434663
 支护	fcry	351524
-二叉树	fcsc	28380
+二叉树	fcsc	4294967295
 云树	fcsc	888
 云顶	fcsd	310610
 云杉	fcse	289157
@@ -59191,7 +59204,7 @@ encoder:
 需求阶段	fgbw	441
 二队	fgbw	619019
 二附	fgbw	124628
-二阶	fgbw	0
+二阶	fgbw	4294967295
 十队	fgbw	0
 干劲	fgca	892294
 二叠	fgcc	0
@@ -64483,6 +64496,7 @@ encoder:
 过望	fpyn	999
 霍守义	fpyr	1
 未定义	fpyr	17295
+未定义行为	fpyt	4294967295
 过话	fpyt	999
 索放	fpyt	777
 赵之谦	fpyu	87
@@ -65395,6 +65409,7 @@ encoder:
 韩松龄	fshw	2
 郝梦龄	fshw	48
 无可非议	fshy	2336
+霍格沃茨	fsia	4294967295
 零丁洋里叹零丁	fsij	11
 露顶洒松风	fsis	4
 真机测试	fsiy	2399
@@ -66689,6 +66704,7 @@ encoder:
 远亲近邻	furw	70
 丧失	furw	8407968
 封装格式	fusa	214
+二次根式	fusa	4294967295
 块状树	fusc	27
 培植	fusf	1231129
 幸桓	fusg	0
@@ -67104,6 +67120,7 @@ encoder:
 堆里	fwjf	1383944
 零时	fwjf	872538
 霍里	fwjf	777
+真命题	fwjg	4294967295
 颠倒是非	fwjh	443
 截日	fwjj	777
 霍显	fwjo	0
@@ -67455,8 +67472,8 @@ encoder:
 赵维德	fxtf	1
 运维自动化	fxtf	187
 运维管理	fxtg	584
-元编程	fxtk	1124
 超线程	fxtk	1225
+元编程	fxtk	4294967295
 吉比特以太网	fxtn	61
 无丝竹之乱耳	fxtp	7
 超线程技术	fxtr	550
@@ -67799,6 +67816,7 @@ encoder:
 开了	gabn	18666503
 弄了	gabn	1929836
 开孔	gabn	273936
+正切函数	gabo	4294967295
 理藩院	gabp	20
 开除	gabw	3531256
 与世隔绝	gabx	2631
@@ -68471,6 +68489,7 @@ encoder:
 互联网公司	gbmw	7627
 互联网编程	gbmx	37
 晋阳已陷休回顾	gbnb	1
+一阶导	gbnf	4294967295
 顿悟	gbng	960563
 严阵以待	gbnt	6565
 击发	gbnt	999
@@ -69457,7 +69476,7 @@ encoder:
 一顾倾人城	gdww	17
 青春作伴好还乡	gdww	38
 王克俭	gdww	79
-平面几何	gdww	328
+平面几何	gdww	4294967295
 天价	gdww	3790471
 天份	gdww	769819
 天伦	gdww	482295
@@ -70427,6 +70446,7 @@ encoder:
 青云衣兮白霓裳	gfyw	2
 责无旁贷	gfyw	6201
 下载文件	gfyw	16252
+一元论	gfyw	4294967295
 王志文	gfyy	474
 迂言	gfyy	777
 于文	gfyy	0
@@ -70518,6 +70538,7 @@ encoder:
 一了	ggbn	515691
 五院	ggbp	777
 五联	ggbu	0
+一阶	ggbw	4294967295
 球队	ggbw	20200590
 一队	ggbw	3265896
 五队	ggbw	0
@@ -72232,7 +72253,7 @@ encoder:
 正座	ghow	46997
 正字	ghpb	165429
 恶紫之夺朱也	ghpd	3
-正割	ghpd	999
+正割	ghpd	4294967295
 正宗	ghpf	3721594
 下定	ghpg	3549240
 下家	ghpg	415190
@@ -72925,6 +72946,7 @@ encoder:
 五里雾中	gjfk	48
 一览无遗	gjfk	1180
 更鼓	gjfk	999
+静电场	gjfn	4294967295
 理亏	gjfn	456565
 理塘	gjfo	0
 一曝十寒	gjfp	70
@@ -77300,6 +77322,7 @@ encoder:
 万物并作吾观复	gtuw	1
 焉得并州快剪刀	gtuy	1
 下笔如有神	gtvd	110
+开箱即用	gtve	4294967295
 于我如浮云	gtvi	94
 一生好入名山游	gtvt	6
 王禹九	gtvt	12
@@ -78120,6 +78143,7 @@ encoder:
 毒阱	gxbf	888
 夷陵	gxbf	777
 严绳孙	gxbi	1
+正弦函数	gxbo	4294967295
 互联	gxbu	10935938
 互通	gxce	2916199
 素鸡	gxcq	888
@@ -80312,6 +80336,7 @@ encoder:
 睡眼惺忪	hhnn	872
 步快	hhnn	777
 睚眦必报	hhnr	140
+凹凸性	hhnt	4294967295
 步履	hhnt	1259067
 频发	hhnt	840230
 频度	hhoa	320243
@@ -91009,6 +91034,7 @@ encoder:
 海城	itfd	0
 海协	itfe	85995
 润物无声春有功	itff	1
+洋务运动	itff	4294967295
 沃土	itff	588088
 少款	itff	0
 渊博	itfg	1013057
@@ -93810,6 +93836,7 @@ encoder:
 游言	iyyy	777
 蝶式	jaaa	777
 日暮荥阳驿中宿	jaab	1
+明斯基	jaad	4294967295
 日暮黄云高	jaaf	2
 照葫芦画瓢	jaag	248
 日期工具类	jaah	120
@@ -94200,6 +94227,7 @@ encoder:
 临阵退缩	jbvx	207
 最优	jbwd	2327777
 电子付款	jbwf	19
+最值	jbwf	4294967295
 最佳	jbwf	51494901
 最会	jbwf	695082
 最全	jbwg	4359679
@@ -94510,6 +94538,7 @@ encoder:
 晚成单罗衫	jdul	1
 晨会	jdwf	237707
 最大化平均值	jdwg	12
+最大值点	jdwh	4294967295
 最大值最小化	jdwj	34
 最大公因数	jdwl	380
 最大似然	jdwq	361
@@ -96004,6 +96033,7 @@ encoder:
 电源总线	jiux	16
 照耀如雪天	jivf	4
 最小值	jiwf	17022
+最小值点	jiwh	4294967295
 晃悠	jiwh	642737
 星河欲转千帆舞	jiwl	5
 曝光偏差	jiwu	4294967295
@@ -97774,7 +97804,7 @@ encoder:
 临别	jtke	771329
 星号	jtkg	432889
 最长路	jtkh	1349
-最短路	jtkh	11189
+最短路	jtkh	4294967295
 星路	jtkh	999
 蟠踞	jtkh	999
 蜂鸣	jtkq	187128
@@ -97961,6 +97991,7 @@ encoder:
 蚱娘	jtvy	888
 最长公共前缀	jtwa	1152
 最长公共子串	jtwa	1672
+最长公共子序列	jtwa	4294967295
 监仓	jtwb	888
 星途	jtwg	999
 星命	jtwg	888
@@ -98444,6 +98475,7 @@ encoder:
 晓风残月	jwge	51
 晨登瓦官阁	jwgp	1
 明登天姥岑	jwgv	1
+最值点	jwhk	4294967295
 旦余济乎江湘	jwit	1
 蛤蟆	jwja	1252945
 昤昽	jwjd	999
@@ -98470,7 +98502,7 @@ encoder:
 明代宗	jwpf	2
 明仁宗	jwpf	23
 最佳容量	jwpj	4294967295
-最佳实践	jwpk	12026
+最佳实践	jwpk	4294967295
 愚人之所以为愚	jwpr	1
 是人之所欲也	jwpr	20
 最优解	jwqe	12784
@@ -103613,6 +103645,7 @@ encoder:
 听者	krft	975004
 史培	krfu	4
 听到	krgc	53863318
+哈希表	krge	4294967295
 听政	krgh	135614
 听事	krgk	999
 史事	krgk	888
@@ -104556,6 +104589,7 @@ encoder:
 只留	kwqy	967911
 哈搭	kwra	777
 只把	kwrc	1060493
+哈希	kwrd	4294967295
 唤作拒霜知未称	kwrf	1
 只看	kwrh	5175722
 吴信泉	kwri	9
@@ -105091,7 +105125,7 @@ encoder:
 轻罪	lclh	77560
 轻甲	lclh	0
 轻软	lclq	888
-连通图	lclt	3119
+连通图	lclt	4294967295
 轻略	lclt	888
 轻轨	lclv	1038198
 轻贱	lcmf	126524
@@ -105920,6 +105954,7 @@ encoder:
 黑导	lfnf	0
 黑屋	lfng	888
 围屋	lfng	0
+转动惯量	lfnj	4294967295
 图元属性	lfnn	14
 黑书	lfnn	888
 围乙	lfnn	0
@@ -106592,6 +106627,7 @@ encoder:
 国发	lgnt	621980
 车改	lgnt	202541
 畏惮	lgnu	888
+罗素悖论	lgny	4294967295
 辅以	lgny	1142674
 国度	lgoa	5426224
 国庆	lgod	5494621
@@ -108589,6 +108625,7 @@ encoder:
 回扫时间	lrju	25
 连接时间	lrju	1283
 暂别	lrke	437896
+圆括号	lrkg	4294967295
 轶史	lrkr	888
 轻手轻脚	lrle	537
 轮播图	lrlt	932
@@ -108928,7 +108965,7 @@ encoder:
 图门	ltuy	78658
 图录	ltvi	195407
 恩重如山	ltvm	185
-图灵	ltvo	133884
+图灵	ltvo	4294967295
 略嫌	ltvu	0
 图片合成	ltwd	545
 输入分布	ltwd	4294967295
@@ -111136,6 +111173,7 @@ encoder:
 山形依旧枕寒流	mgwh	4
 同修	mgwh	254700
 同伙	mgwo	1181484
+同像	mgwq	4294967295
 同你	mgwq	1541578
 同父	mgwr	4294967295
 同体	mgws	181539
@@ -113401,6 +113439,7 @@ encoder:
 内情	mwng	1365662
 内壁	mwnk	652795
 岂余心之可惩	mwnp	4
+同像性	mwnt	4294967295
 邮件发送	mwnu	3934
 内屏	mwnu	1096827
 赊买	mwnu	888
@@ -120927,7 +120966,7 @@ encoder:
 廒商	ogyu	888
 精详	ogyu	888
 精良	ogyv	2660594
-类型论	ogyw	26
+类型论	ogyw	4294967295
 廖静文	ogyy	151
 精言	ogyy	888
 店东	ohai	999
@@ -121164,7 +121203,7 @@ encoder:
 应劭	oivk	20
 应召	oivk	196075
 炒婚	oivq	0
-数学建模	oivs	842
+数学建模	oivs	4294967295
 广汉郡	oivt	12
 数学公式	oiwa	10073
 应仁	oiwf	1
@@ -123669,6 +123708,7 @@ encoder:
 数条	ovts	0
 唐笑	ovtt	34
 数笔	ovtt	0
+数乘	ovtu	4294967295
 唐律	ovtv	93202
 数篇	ovty	0
 唐毅	ovue	296
@@ -126082,6 +126122,7 @@ encoder:
 定格	pgst	1718489
 写述	pgsy	888
 宝柱	pgsy	0
+定长	pgta	4294967295
 家长	pgta	24687941
 室长	pgta	0
 宝笈	pgtb	888
@@ -126268,6 +126309,7 @@ encoder:
 定评	pgyg	999
 家主	pgyg	888
 实型变量	pgyj	215
+定理证明	pgyj	4294967295
 宇豪	pgyk	27
 富豪	pgyk	6357034
 写就	pgyk	451814
@@ -128722,6 +128764,7 @@ encoder:
 裕饶	puqn	888
 被包	puqn	0
 补铁	puqr	120294
+空间解析几何	puqs	4294967295
 补钉	puqs	59253
 袖镖	puqs	999
 初犯	puqt	145690
@@ -130077,6 +130120,7 @@ encoder:
 窒闷	pwun	78757
 完全背包	pwuq	2832
 字体颜色	pwuq	8813
+完全背包问题	pwuq	4294967295
 宿将	pwuq	108687
 窃盗	pwuq	888
 宿瘤	pwuq	777
@@ -132841,6 +132885,7 @@ encoder:
 链表操作	qgrw	990
 鲜于枢	qgsa	3
 印模	qgsa	81684
+鲁棒	qgsd	4294967295
 解囊相助	qgse	558
 鱼枷	qgse	888
 邹一桂	qgsf	10
@@ -133494,6 +133539,7 @@ encoder:
 尔曼	qijl	484394
 销歇	qijq	999
 多源最短路径	qijt	114
+多源最短路	qijt	4294967295
 逃监	qijt	888
 留学申请	qijy	18
 销号	qikg	999
@@ -135507,6 +135553,7 @@ encoder:
 包尔汉	qqic	44
 金泽	qqic	230857
 钟镇涛	qqid	172
+多源	qqid	4294967295
 金源	qqid	717719
 鑫涛	qqid	54877
 金湖	qqid	0
@@ -136472,6 +136519,7 @@ encoder:
 多样性度量	qsno	4294967295
 鲁梅尼格	qsns	56
 多样性	qsnt	4294967295
+鲁棒性	qsnt	4294967295
 铁杵磨成针	qsod	80
 金相庆	qsod	2
 句柄类	qsod	240
@@ -136512,7 +136560,7 @@ encoder:
 鲁桓公	qswc	8
 铃木保奈美	qswd	7
 铃村健一	qswg	1
-解析几何	qsww	845
+解析几何	qsww	4294967295
 钉住	qswy	206034
 钟楚红	qsxa	92
 多标记学习	qsyi	4294967295
@@ -139110,6 +139158,7 @@ encoder:
 撒但	rawj	777
 报警信号	rawk	116
 拒保	rawk	0
+近世代数	rawo	4294967295
 搭伙	rawo	91388
 找你	rawq	6333774
 抠像	rawq	446136
@@ -140235,6 +140284,7 @@ encoder:
 拜礼	rdpy	76809
 拜神	rdpy	777
 拔锚	rdqa	999
+反三角函数	rdqb	4294967295
 捧角	rdqe	999
 掎角	rdqe	888
 拔解	rdqe	777
@@ -141411,6 +141461,7 @@ encoder:
 报表数据源	rgor	180
 后灯	rgos	53820
 后庭	rgot	390830
+排列数	rgov	4294967295
 后唐	rgov	142434
 后座	rgow	1399297
 搏膺	rgow	777
@@ -142717,6 +142768,7 @@ encoder:
 朱笔	ritt	79451
 朱简	ritu	1
 挥洒自如	ritv	489
+反常积分	ritw	4294967295
 朱敏	ritx	0
 反渗透设备	rity	66
 撑篙	rity	888
@@ -145242,6 +145294,7 @@ encoder:
 兜卖	rqfn	888
 捣卖	rqfn	888
 换过	rqfp	0
+换元	rqfq	4294967295
 魁元	rqfq	999
 打铁趁热	rqfr	47
 鬼才	rqft	768860
@@ -146864,6 +146917,7 @@ encoder:
 打呃	rskd	888
 打嚏	rskf	888
 打噎	rskf	777
+手机号	rskg	4294967295
 打嗝	rskg	324794
 杀跌	rskh	581486
 打跑	rskh	355216
@@ -151025,6 +151079,7 @@ encoder:
 格式化数据	sawo	289
 模式分类	sawo	957
 格式化字符串	sawp	1003
+根式代换	sawr	4294967295
 棋风	sawr	999
 模式分析	saws	589
 歌功颂德	sawt	632
@@ -151492,7 +151547,7 @@ encoder:
 李儒	sbwf	8
 极佳	sbwf	3014708
 李伟	sbwf	540683
-极值	sbwf	131240
+极值	sbwf	4294967295
 李佳	sbwf	0
 梦随风万里	sbwg	3
 李傲	sbwg	60571
@@ -155002,7 +155057,7 @@ encoder:
 可要	sksv	3905503
 机器可读的数据	sksy	4294967295
 杏核	sksy	75756
-机器智能	sktc	365
+机器智能	sktc	4294967295
 可知	sktd	4406792
 歌辞	sktd	888
 格哈德	sktf	241
@@ -156805,7 +156860,7 @@ encoder:
 林野	ssjf	942
 梦里	ssjf	4825746
 林蛙	ssjf	94332
-柯里	ssjf	65827
+柯里	ssjf	4294967295
 木里	ssjf	0
 林里	ssjf	0
 模板题	ssjg	4233
@@ -157553,6 +157608,7 @@ encoder:
 李径独来数	stqg	1
 格鲁	stqg	693817
 格外	stqh	7499242
+哥德尔	stqi	4294967295
 格尔	stqi	1904304
 梅尔	stqi	1356050
 标签名	stqk	4281
@@ -157821,6 +157877,7 @@ encoder:
 可塑性	sunt	4294967295
 梯度	suoa	4294967295
 标准库函数	suob	2783
+标准库	suol	4294967295
 树状数组	suox	8010
 李彦宏	supd	2681
 杨靖宇	supg	531
@@ -158294,6 +158351,7 @@ encoder:
 橙皮	swhc	120624
 栓皮	swhc	999
 机上	swhg	3025202
+极值点	swhk	4294967295
 枪战	swhk	1079709
 机战	swhk	549610
 检点	swhk	483363
@@ -158508,6 +158566,7 @@ encoder:
 机顶	swsd	0
 机棚	swse	888
 松杉	swse	0
+极坐标	swsf	4294967295
 机票	swsf	34156709
 检票	swsf	366786
 松枝	swsf	175113
@@ -158542,6 +158601,7 @@ encoder:
 柃木	swss	999
 榆木	swss	0
 榆林	swss	0
+极坐标系	swst	4294967295
 枫桥	swst	330556
 机要	swsv	473612
 李代桃僵	swsw	168
@@ -159803,7 +159863,7 @@ encoder:
 徒子徒孙	tbtb	161
 秀穗	tbtg	888
 透息	tbth	888
-矩阵乘法	tbti	4564
+矩阵乘法	tbti	4294967295
 透射	tbtm	608757
 季秋	tbto	999
 矩阵乘积	tbtt	4294967295
@@ -161276,6 +161336,7 @@ encoder:
 船儿	teqt	0
 舯拱	tera	777
 航摄	terb	888
+重力势能	terc	4294967295
 盘扯	terh	888
 租摆	terl	59549
 盘据	tern	888
@@ -164500,6 +164561,7 @@ encoder:
 鼻洼	thif	888
 自渎	thif	666
 臭汗	thif	0
+自举	thig	4294967295
 自清	thig	345646
 延滞	thig	36343
 乍浦	thig	0
@@ -164854,6 +164916,7 @@ encoder:
 竹笆	thtc	888
 臭么	thtc	777
 我非生而知之者	thtd	4
+算筹	thtd	4294967295
 自知	thtd	2633823
 怎知	thtd	1272107
 自筹	thtd	1142213
@@ -165340,7 +165403,7 @@ encoder:
 自注意力模型	tiue	4294967295
 自注意力	tiue	4294967295
 自清凉无汗	tiuf	1
-乘法逆元	tiuf	626
+乘法逆元	tiuf	4294967295
 筲斗	tiuf	777
 稍差	tiug	398200
 秋江送别二首	tiuk	1
@@ -165977,6 +166040,7 @@ encoder:
 香分	tjwv	777
 复贫	tjwv	0
 魏明伦	tjww	207
+射影几何	tjww	4294967295
 得人	tjww	1633731
 利人	tjww	381298
 利欲	tjww	138691
@@ -166020,6 +166084,7 @@ encoder:
 香扇	tjyn	777
 复谈	tjyo	999
 复变	tjyo	0
+射影变换	tjyr	4294967295
 简易计算器	tjyt	216
 利诱	tjyt	653551
 利州	tjyt	0
@@ -166905,6 +166970,7 @@ encoder:
 徽索	tmfp	777
 千山动鳞甲	tmfq	1
 我由未免为乡人也	tmfq	2
+微元	tmfq	4294967295
 身无	tmfq	1003787
 征帆去棹残阳里	tmfs	1
 身教	tmft	254031
@@ -167007,7 +167073,7 @@ encoder:
 奥星	tmjt	0
 微曦	tmju	777
 身影	tmjy	16112862
-射影	tmjy	72303
+射影	tmjy	4294967295
 竹内顺子	tmkb	1
 向吴	tmkg	170240
 徽号	tmkg	999
@@ -168691,9 +168757,9 @@ encoder:
 移交	tqyw	2802374
 自然语言语法	tqyy	10
 自然语言理解	tqyy	689
-自然语言	tqyy	4757
-自然语言处理	tqyy	4294967295
 自然语言生成	tqyy	4294967295
+自然语言处理	tqyy	4294967295
+自然语言	tqyy	4294967295
 物议	tqyy	999
 衡文	tqyy	888
 穆萨	trab	328627
@@ -169760,6 +169826,7 @@ encoder:
 笔述	ttsy	666
 笙簧	ttta	777
 先入先出队列	tttb	81
+生物智能	tttc	4294967295
 乘船往石头	tttd	1
 特征生成	tttd	93
 笔舌	tttd	888
@@ -170930,6 +170997,8 @@ encoder:
 黏油	twim	777
 向使当初身便死	twip	8
 徐溶	twip	30
+积分学	twip	4294967295
+微分学	twip	4294967295
 徐常	twip	0
 自作清歌传皓齿	twis	2
 徐海	twit	63029
@@ -171313,8 +171382,8 @@ encoder:
 黍离	twyr	41649
 身份证校验	twys	117
 签订	twys	15879698
-微分方程	twyt	4294967295
 条件计算	twyt	4294967295
+微分方程	twyt	4294967295
 徐州	twyt	8843446
 答话	twyt	1733966
 答谢	twyt	1491562
@@ -172430,6 +172499,7 @@ encoder:
 闻声	ubfn	1395329
 塑壳	ubfp	152621
 童孙未解供耕织	ubfq	3
+逆元	ubfq	4294967295
 闻者	ubft	0
 逆境	ubfu	1248592
 逆增	ubfu	777
@@ -175612,6 +175682,7 @@ encoder:
 站谈	uhyo	0
 疵议	uhyy	888
 赣水苍茫闽山碧	uiaa	1
+资源获取即初始化	uiab	4294967295
 冰期	uiad	90674
 冰藏	uiad	888
 瘠苦	uiad	888
@@ -175714,8 +175785,8 @@ encoder:
 冰暴	uija	0
 阔野	uijf	999
 冰晶	uijj	680725
-单源最短路	uijt	718
 单源最短路径	uijt	1516
+单源最短路	uijt	4294967295
 冰星	uijt	0
 冰景	uijy	0
 冰吧	uikc	0
@@ -176852,6 +176923,7 @@ encoder:
 单点	ulhk	525168
 单眼	ulhv	277574
 曾江	ulia	95682
+单源	ulid	4294967295
 曾涛	ulid	0
 郑思肖	ulie	15
 单掌	ulip	0
@@ -177241,6 +177313,7 @@ encoder:
 决不	undh	6794514
 半懂不懂	undn	70
 壮心不已	undn	183
+单层感知机	undt	4294967295
 决胜	unet	890970
 童心未泯	unfi	441
 决堤	unfj	584220
@@ -177957,7 +178030,7 @@ encoder:
 冲昏头脑	uque	441
 将养	uquf	76495
 颜色减淡	uqui	145
-背包问题	uquj	3997
+背包问题	uquj	4294967295
 奖章	uquj	1885791
 恣意	uquj	1054051
 次韵	uquj	999
@@ -180193,8 +180266,8 @@ encoder:
 冷盆	uwwv	888
 郑佩佩	uwww	161
 单例传值	uwww	41
-立体几何	uwww	210
 总体代价	uwww	4294967295
+立体几何	uwww	4294967295
 闪人	uwww	1244896
 疯人	uwww	181241
 冷货	uwwx	999
@@ -180752,11 +180825,12 @@ encoder:
 门套	uydd	188182
 半夜三更	uydg	942
 疰夏	uydh	999
+普朗克常数	uydi	4294967295
 门面	uydm	2552037
 凉面	uydm	182542
 冷永成	uydn	31
-普朗克	uydq	228
 疾言厉色	uydq	114
+普朗克	uydq	4294967295
 前言不搭后语	uydr	620
 凉爽	uydr	1782040
 门厅	uyds	508224
@@ -180863,7 +180937,7 @@ encoder:
 新诗改罢自长吟	uynl	1
 凉快	uynn	924295
 道州忧黎庶	uynt	1
-单调性	uynt	2002
+单调性	uynt	4294967295
 闹心	uyny	999
 闹忙	uyny	888
 凉席	uyoa	329518
@@ -187723,6 +187797,7 @@ encoder:
 代理类	wgod	9507
 余庆	wgod	888
 倒灶	wgof	999
+依赖类型论	wgog	4294967295
 倒店	wgoh	777
 公正廉洁	wgoi	4946
 便应	wgoi	666
@@ -187759,7 +187834,7 @@ encoder:
 余寒	wgpa	888
 命蹇	wgpa	888
 倒字	wgpb	888
-余割	wgpd	999
+余割	wgpd	4294967295
 便宜	wgpe	22763462
 合宜	wgpe	260083
 剑宗	wgpf	253339
@@ -189048,6 +189123,7 @@ encoder:
 人日题诗寄草堂	wjjy	1
 僧是愚氓犹可训	wjjy	3
 偶影	wjjy	777
+傅里叶	wjkf	4294967295
 偶蹄	wjkh	0
 傅里叶描述子	wjkr	24
 但听	wjkr	713651
@@ -189058,7 +189134,7 @@ encoder:
 傅里叶变换	wjky	1828
 但因	wjld	2788558
 倮黑	wjlf	777
-命题逻辑	wjll	89
+命题逻辑	wjll	4294967295
 俚曲	wjma	999
 但曲	wjma	777
 伸曲	wjma	0
@@ -189172,6 +189248,7 @@ encoder:
 介弟	wjux	777
 但她	wjvb	9474487
 倡始	wjvc	777
+命题即类型	wjvo	4294967295
 偶婚	wjvq	888
 倡女	wjvv	888
 他日如何举	wjvw	1
@@ -192243,6 +192320,7 @@ encoder:
 侨属	wtnt	999
 几发	wtnt	0
 几尾	wtnt	0
+低延迟	wtny	4294967295
 伤心	wtny	19058192
 八尺	wtny	532463
 任心	wtny	888
@@ -193328,7 +193406,7 @@ encoder:
 分洪	wvia	102775
 忿懑	wvia	888
 仇池	wvib	0
-分治	wvic	159394
+分治	wvic	4294967295
 坌涌	wvic	888
 侵削	wvie	777
 侵淫	wvie	777
@@ -194126,6 +194204,7 @@ encoder:
 佩里	wwjf	353650
 谷里	wwjf	306382
 丛里	wwjf	0
+假命题	wwjg	4294967295
 人是	wwjg	13451681
 份量	wwjg	1881953
 从师	wwjg	193572
@@ -194150,7 +194229,7 @@ encoder:
 伶伦吹裂孤生竹	wwkg	1
 假信号	wwkg	28
 公众号开发	wwkg	87
-公众号	wwkg	6981
+公众号	wwkg	4294967295
 使人听此凋朱颜	wwkh	2
 从中	wwkh	9034824
 人中	wwkh	3774159
@@ -194752,6 +194831,7 @@ encoder:
 俗说	wwyu	888
 从良	wwyv	272535
 但使主人能醉客	wwyw	8
+集合论	wwyw	4294967295
 人交	wwyw	403851
 坐诊	wwyw	205433
 坐夜	wwyw	999
@@ -194797,6 +194877,7 @@ encoder:
 倾陨	wxbk	888
 倾出	wxbm	122030
 分组函数	wxbo	823
+余弦函数	wxbo	4294967295
 佛陀	wxbp	1153896
 倾陷	wxbq	888
 化隆	wxbt	0
@@ -196222,7 +196303,7 @@ encoder:
 伪币	wytm	888
 念秧	wytm	777
 储币	wytm	666
-仿射	wytm	0
+仿射	wytm	4294967295
 余文乐	wytn	395
 今秋	wyto	627446
 今番	wyto	151223
@@ -196554,6 +196635,7 @@ encoder:
 令望	wyyn	777
 依恋	wyyo	1954420
 贪恋	wyyo	639477
+值语义	wyyr	4294967295
 含义	wyyr	8919995
 偏离	wyyr	2010160
 信义	wyyr	1323158
@@ -197001,6 +197083,7 @@ encoder:
 经历	xcde	47235973
 弘历	xcde	168723
 弘厉	xcdg	888
+费马大定理	xcdp	4294967295
 弘愿	xcdr	999
 经县	xceg	344657
 经用	xceh	888
@@ -198177,7 +198260,7 @@ encoder:
 张曜孙	xjbi	1
 费劲	xjca	1312360
 缇骑	xjcg	888
-费马	xjcg	0
+费马	xjcg	4294967295
 费观	xjcm	1
 费难	xjcw	999
 终日不成章	xjdd	6
@@ -198886,6 +198969,7 @@ encoder:
 幻民	xnna	777
 母忧	xnnd	888
 费尽心机	xnns	1028
+线性性	xnnt	4294967295
 母性	xnnt	763571
 张心悦	xnnu	1
 张飞飞	xnnu	46
@@ -199006,9 +199090,9 @@ encoder:
 幻剑	xnwg	969196
 纠合	xnwg	999
 线性分类	xnwo	850
-线性代数	xnwo	6021
 线性分类器	xnwo	4294967295
 线性分类模型	xnwo	4294967295
+线性代数	xnwo	4294967295
 幻像	xnwq	0
 纠风	xnwr	305270
 母体	xnws	1028809
@@ -200839,8 +200923,8 @@ encoder:
 纵波	xwih	37509
 给水	xwii	1328685
 纷沓	xwij	666
-强化学习	xwin	4294967295
 组件学习器	xwin	4294967295
+强化学习	xwin	4294967295
 组合学	xwip	82
 纵深	xwip	1406687
 纵酒	xwis	111924
@@ -200875,7 +200959,7 @@ encoder:
 组合数取模	xwob	194
 综合类	xwod	284
 综合应用	xwoe	1333
-组合数学	xwoi	2346
+组合数学	xwoi	4294967295
 弱分类器	xwok	4294967295
 强分类器	xwok	4294967295
 维库	xwol	272919
@@ -200883,7 +200967,7 @@ encoder:
 组件类库	xwoo	18
 纵火	xwoo	688077
 线段数	xwov	609
-组合数	xwov	4008
+组合数	xwov	4294967295
 维康	xwov	136840
 维数	xwov	888
 给定	xwpg	1096453
@@ -201770,7 +201854,7 @@ encoder:
 试炼	yaoa	888
 齐藤庆子	yaob	1
 试业	yaog	0
-离散数学	yaoi	1805
+离散数学	yaoi	4294967295
 试灯	yaos	888
 讵料	yaou	888
 谋害	yapd	496530
@@ -201947,6 +202031,7 @@ encoder:
 读出时间	ybju	30
 读取图像	yblw	1328
 诎曲	ybma	888
+高阶导	ybnf	4294967295
 谱聚类	ybod	4294967295
 刘子业	ybog	10
 读取数据	ybor	43784
@@ -207593,6 +207678,7 @@ encoder:
 计拙是和亲	yrjt	1
 高质量代码	yrjw	308
 离别	yrke	4321016
+方括号	yrkg	4294967295
 义足	yrkh	888
 诟骂	yrkk	999
 变换中心	yrkn	30
@@ -208875,9 +208961,10 @@ encoder:
 旅伴	ytwu	178643
 计算几何知识	ytww	18
 计算几何基础	ytww	69
-计算几何	ytww	2633
 计算优化	ytww	4294967295
 计算代价	ytww	4294967295
+计算几何学	ytww	4294967295
+计算几何	ytww	4294967295
 为人	ytww	10863603
 诱人	ytww	7617180
 族人	ytww	4135037
@@ -208979,6 +209066,8 @@ encoder:
 许州	ytyt	0
 高第良将怯如鸡	ytyu	6
 刘德谦	ytyu	144
+旅行商问题	ytyu	4294967295
+旅行商	ytyu	4294967295
 话说	ytyu	11211101
 族谱	ytyu	319349
 谢良	ytyv	37
@@ -209303,8 +209392,8 @@ encoder:
 旁魄	yurr	777
 访问授权	yurs	528
 商挺	yurt	2
-误差反向传播	yurt	4294967295
 误差反向传播算法	yurt	4294967295
+误差反向传播	yurt	4294967295
 谦卑	yurt	720903
 旁手	yurt	777
 商招	yurv	888
@@ -211802,6 +211891,7 @@ encoder:
 文说	yyyu	0
 谣诼谓余以善淫	yyyw	6
 衮衮诸公	yyyw	57
+认识论	yyyw	4294967295
 言论	yyyw	24840248
 议论	yyyw	6006549
 文论	yyyw	279754

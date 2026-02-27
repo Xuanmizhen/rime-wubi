@@ -1,6 +1,9 @@
 #![forbid(unsafe_code)]
 
-use crate::db::unicode_cjk_wubi06::cjk::{self, Table};
+use crate::db::{
+    artificial_intelligence_terminology_database, custom,
+    unicode_cjk_wubi06::cjk::{self, Table},
+};
 use log::{error, info};
 use std::{error::Error, process::ExitCode};
 
@@ -12,6 +15,12 @@ pub fn run() -> Result<(), Box<dyn Error>> {
     let mut dict = db::rime_data::load_and_merge_dicts()?;
     let mut table = Table::load(&*cjk::PATH)?;
     assert!(db::verify_with(&mut dict, &mut table));
+    custom::update_dict_from_path(&mut dict, &table, &*custom::PATH)?;
+    custom::update_dict_from_path(
+        &mut dict,
+        &table,
+        &*artificial_intelligence_terminology_database::DATA_PATH,
+    )?;
     generate::generate_yaml(&dict)?;
     Ok(())
 }

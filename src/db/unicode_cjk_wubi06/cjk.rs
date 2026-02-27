@@ -33,7 +33,7 @@ impl Table {
         self.char_to_code.insert(ch, code);
     }
 
-    pub fn contains_char(self, ch: char) -> bool {
+    pub fn contains_char(&self, ch: char) -> bool {
         self.char_to_code.contains_key(&ch)
     }
 

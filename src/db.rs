@@ -9,6 +9,7 @@ use thiserror::Error;
 use unicode_cjk_wubi06::cjk::Table;
 
 pub mod artificial_intelligence_terminology_database;
+pub mod custom;
 pub mod rime_data;
 pub mod thuocl;
 pub mod unicode_cjk_wubi06;
@@ -16,7 +17,7 @@ pub mod unicode_cjk_wubi06;
 pub static PATH: LazyLock<PathBuf> = LazyLock::new(|| "db".into());
 
 pub fn verify_with(dict: &mut Dict, table: &mut Table) -> bool {
-    info!("Verifying");
+    info!("Verifying characters");
     let mut matched_chs = HashSet::new();
     let mut incomplete_chs = HashSet::new();
     let mut not_found_chs = HashMap::new();
@@ -65,6 +66,14 @@ pub fn verify_with(dict: &mut Dict, table: &mut Table) -> bool {
             dict.insert_char(*ch, code.clone());
         }
     }
+
+    info!("Verifying phrases");
+    for entry in dict.phrases() {
+        if entry.code != table.get_phrase_code(&entry.phrase) {
+            return false;
+        }
+    }
+
     true
 }
 

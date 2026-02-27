@@ -1,3 +1,4 @@
+use crate::db::unicode_cjk_wubi06::cjk::Table;
 use std::cmp::{self, Ordering};
 
 pub mod yaml;
@@ -34,6 +35,30 @@ impl Dict {
         };
         let point = self.chars.partition_point(|e| *e <= entry);
         self.chars.insert(point, entry);
+    }
+
+    pub fn insert_phrase_if_missing(&mut self, phrase: String, table: &Table, weight: Option<u32>) {
+        if phrase.is_empty() {
+            return;
+        }
+        let code = table.get_phrase_code(&phrase);
+        let entry = DictEntry {
+            code,
+            weight,
+            phrase,
+        };
+        let point = self.phrases.partition_point(|e| e.code < entry.code);
+        for e in &mut self.phrases[point..] {
+            if e.code != entry.code {
+                debug_assert_ne!(e.phrase, entry.phrase);
+                break;
+            }
+            if e.phrase == entry.phrase {
+                e.weight = cmp::max(e.weight, entry.weight);
+                return;
+            }
+        }
+        self.phrases.insert(point, entry);
     }
 
     pub fn chars(&self) -> impl Iterator<Item = &DictEntry> {

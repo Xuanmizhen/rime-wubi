@@ -82180,6 +82180,7 @@ encoder:
 桌餐	hjhq	999
 此日此时人共得	hjht	1
 卢照龄	hjhw	2
+此时此刻	hjhy	4294967295
 旧法	hjif	137690
 旧学	hjip	999
 瞬时冒险	hjjb	4294967295
@@ -112922,7 +112923,7 @@ encoder:
 髓鞘	meak	777
 骨董	meat	999
 骰子	mebb	911080
-骨子	mebb	187099
+骨子	mebb	4294967295
 胄子	mebb	777
 山月随人归	mebj	1
 骨出	mebm	888
@@ -168696,6 +168697,7 @@ encoder:
 延用	theh	188596
 鼻胆	thej	888
 自驾	thek	1016143
+算力	then	4294967295
 自力	then	360498
 竹鼠	then	888
 臭鼬	then	777

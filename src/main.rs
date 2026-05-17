@@ -20,7 +20,7 @@ pub fn run() -> Result<(), Box<dyn Error>> {
     let mut dict = db::rime_data::load_and_merge_dicts()?;
     let mut table = Table::load(&*cjk::PATH)?;
     if !db::verify_with(&mut dict, &mut table) {
-        return Err("验证失败".into());
+        return Err("Verification failed".into());
     }
     custom::update_dict_from_path(&mut dict, &table, &*custom::PATH)?;
     custom::update_dict_from_path(
@@ -40,20 +40,20 @@ pub fn run() -> Result<(), Box<dyn Error>> {
 pub fn run_cli() -> Result<(), Box<dyn Error>> {
     let table = cjk::Table::load(&*cjk::PATH)?;
     let dict = db::rime_data::load_and_merge_dicts()?;
-    
+
     match Command::parse() {
         Command::Generate => run()?,
         Command::Lookup { phrase } => lookup::lookup(&table, &dict, &phrase)?,
         Command::Add { phrase } => lookup::add(&table, &phrase)?,
     }
-    
+
     Ok(())
 }
 
 fn main() -> ExitCode {
     let _ = env_logger::try_init();
     if let Err(e) = run_cli() {
-        eprintln!("任务失败: {}", e);
+        eprintln!("Task failed: {}", e);
         ExitCode::FAILURE
     } else {
         ExitCode::SUCCESS

@@ -2,20 +2,20 @@ use clap::Parser;
 
 #[derive(Parser)]
 #[command(name = "rime-wubi")]
-#[command(about = "五笔输入法词库管理工具", long_about = None)]
+#[command(about = "Wubi Input Method Dictionary Management Tool", long_about = None)]
 pub enum Command {
-    #[command(about = "生成 Rime 词库配置文件")]
+    #[command(about = "Generate Rime dictionary config file")]
     Generate,
 
-    #[command(about = "反查词语的五笔编码")]
+    #[command(about = "Look up Wubi code for a phrase")]
     Lookup {
-        #[arg(help = "要查询的词语")]
+        #[arg(help = "Phrase to look up")]
         phrase: String,
     },
 
-    #[command(about = "添加词语到 custom.txt")]
+    #[command(about = "Add phrase to custom.txt")]
     Add {
-        #[arg(help = "要添加的词语")]
+        #[arg(help = "Phrase to add")]
         phrase: String,
     },
 }

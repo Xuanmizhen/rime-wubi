@@ -7,3 +7,4 @@ edition = "2024"
 env_logger = "0.11.9"
 log = "0.4"
 thiserror = "2"
+clap = { version = "4", features = ["derive"] }

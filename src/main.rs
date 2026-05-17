@@ -1,20 +1,27 @@
 #![forbid(unsafe_code)]
 
-use crate::db::{
-    artificial_intelligence_terminology_database, custom, lexicon, thuocl,
-    unicode_cjk_wubi06::cjk::{self, Table},
+use crate::{
+    cli::Command,
+    db::{
+        artificial_intelligence_terminology_database, custom, lexicon, thuocl,
+        unicode_cjk_wubi06::cjk::{self, Table},
+    },
 };
-use log::{error, info};
+use clap::Parser;
 use std::{error::Error, process::ExitCode};
 
+pub mod cli;
 pub mod db;
 pub mod generate;
+pub(crate) mod lookup;
 pub(crate) mod rime;
 
 pub fn run() -> Result<(), Box<dyn Error>> {
     let mut dict = db::rime_data::load_and_merge_dicts()?;
     let mut table = Table::load(&*cjk::PATH)?;
-    assert!(db::verify_with(&mut dict, &mut table));
+    if !db::verify_with(&mut dict, &mut table) {
+        return Err("验证失败".into());
+    }
     custom::update_dict_from_path(&mut dict, &table, &*custom::PATH)?;
     custom::update_dict_from_path(
         &mut dict,
@@ -30,15 +37,23 @@ pub fn run() -> Result<(), Box<dyn Error>> {
     Ok(())
 }
 
+pub fn run_cli() -> Result<(), Box<dyn Error>> {
+    let table = cjk::Table::load(&*cjk::PATH)?;
+    let dict = db::rime_data::load_and_merge_dicts()?;
+    
+    match Command::parse() {
+        Command::Generate => run()?,
+        Command::Lookup { phrase } => lookup::lookup(&table, &dict, &phrase)?,
+        Command::Add { phrase } => lookup::add(&table, &phrase)?,
+    }
+    
+    Ok(())
+}
+
 fn main() -> ExitCode {
-    env_logger::init();
-    if let Err(e) = run() {
-        let mut error = e.as_ref();
-        error!("Task failed: {e}");
-        while let Some(source) = error.source() {
-            info!("Caused by: {source}");
-            error = source;
-        }
+    let _ = env_logger::try_init();
+    if let Err(e) = run_cli() {
+        eprintln!("任务失败: {}", e);
         ExitCode::FAILURE
     } else {
         ExitCode::SUCCESS

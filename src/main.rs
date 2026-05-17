@@ -8,6 +8,7 @@ use crate::{
     },
 };
 use clap::Parser;
+use log::{error, info};
 use std::{error::Error, process::ExitCode};
 
 pub mod cli;
@@ -51,9 +52,14 @@ pub fn run_cli() -> Result<(), Box<dyn Error>> {
 }
 
 fn main() -> ExitCode {
-    let _ = env_logger::try_init();
+    env_logger::init();
     if let Err(e) = run_cli() {
-        eprintln!("Task failed: {}", e);
+        let mut error = e.as_ref();
+        error!("Task failed: {e}");
+        while let Some(source) = error.source() {
+            info!("Caused by: {source}");
+            error = source;
+        }
         ExitCode::FAILURE
     } else {
         ExitCode::SUCCESS

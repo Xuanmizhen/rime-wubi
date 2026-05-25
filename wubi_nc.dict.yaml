@@ -43593,6 +43593,7 @@ encoder:
 奋勇当先	dcit	182
 码洋	dciu	999
 码流	dciy	2965
+磁通量	dcjg	4294967295
 雄师	dcjg	302027
 鬃晶	dcjj	888
 髯蛇	dcjp	777
@@ -48807,6 +48808,7 @@ encoder:
 故渔者歌曰	difj	1
 在尘埃之中	difk	1
 胡汝嘉	difk	1
+有源场	difn	4294967295
 布洛赫	difo	30
 不觉动颜色	difq	1
 不学无术	difs	542
@@ -52394,6 +52396,7 @@ encoder:
 不重生男重生女	dttv	10
 不辞长作岭南人	dttw	81
 不乏先例	dttw	298
+三重积分	dttw	4294967295
 三船敏郎	dtty	2
 故入	dtty	777
 不知将军宽之至此也	dtub	1
@@ -62571,6 +62574,7 @@ encoder:
 载沉载浮	fifi	40
 赵光喜	fifk	2
 赵尚志	fifn	257
+无源场	fifn	4294967295
 云游雨散从此辞	fift	1
 示教	fift	888
 霄壤	fify	999
@@ -65365,6 +65369,7 @@ encoder:
 过电	fpjn	999
 索昂	fpjq	69384
 过晌	fpjt	999
+真空电容率	fpjy	4294967295
 过景	fpjy	888
 过路	fpkh	1031003
 过足	fpkh	362008
@@ -67427,6 +67432,7 @@ encoder:
 考委	fttv	183500
 老魏	fttv	0
 运算符	fttw	4294967295
+二重积分	fttw	4294967295
 老徐	fttw	0
 运算符优先级	fttx	4294967295
 运行系统	fttx	4294967295
@@ -82128,6 +82134,7 @@ encoder:
 旧臣	hjah	121918
 卓荦	hjap	999
 非是藉秋风	hjaw	24
+点电荷	hjaw	4294967295
 桌子	hjbb	12044422
 旧职	hjbk	888
 旧垒	hjcc	888
@@ -97434,6 +97441,8 @@ encoder:
 早经	jfxc	888
 时经	jfxc	0
 时绥	jfxe	888
+电场强度通量	jfxj	4294967295
+电场强度	jfxo	4294967295
 里约	jfxq	0
 显示终端	jfxu	4294967295
 里弦	jfxy	888
@@ -99192,6 +99201,7 @@ encoder:
 归穿弱柳风	jpxw	5
 蛇纹	jpxy	888
 晕高	jpyk	888
+电容率	jpyx	4294967295
 歇工	jqaa	999
 晚节	jqab	80105
 歇荫	jqab	888
@@ -99539,6 +99549,7 @@ encoder:
 野指针	jrqf	4294967295
 昕夕	jrqt	888
 虾兵蟹将	jrqu	166
+电势梯度	jrso	4294967295
 里希特霍芬	jrta	1
 监控告警	jrta	4294967295
 时势造英雄	jrtd	417
@@ -100661,6 +100672,7 @@ encoder:
 晶体振荡器	jwrk	4294967295
 最优控制	jwrr	4294967295
 最优控制理论	jwry	4294967295
+电偶极子	jwsb	4294967295
 晚坐松檐下	jwsg	1
 明修栈道	jwsu	315
 明修栈道暗度陈仓	jwsw	82
@@ -127301,6 +127313,7 @@ encoder:
 米娜	oyvn	419
 广灵	oyvo	0
 麻衣如雪一枝梅	oyvs	1
+广群	oyvt	4294967295
 米姆	oyvx	0
 米袋	oywa	0
 粮仓	oywb	522123
@@ -141719,6 +141732,7 @@ encoder:
 邹绍孟	qxbl	10
 鱼贯而出	qxdb	628
 多维存取	qxdb	4294967295
+匀强磁场	qxdf	4294967295
 鱼贯而行	qxdt	69
 鱼贯而入	qxdt	526
 锦缆龙舟隋炀帝	qxdy	1
@@ -141731,6 +141745,7 @@ encoder:
 锦绣江山	qxim	72
 锦绣河山	qxim	214
 铺张浪费	qxix	8980
+匀强电场	qxjf	4294967295
 犹疑照颜色	qxjq	1
 外强中干	qxkf	288
 多级中断	qxko	4294967295
@@ -161211,6 +161226,7 @@ encoder:
 柯郡	ssvt	0
 森女	ssvv	0
 林黛	sswa	29
+格林公式	sswa	4294967295
 木伐	sswa	777
 木村佳乃	sswb	2
 木俑	sswc	777
@@ -166103,9 +166119,11 @@ encoder:
 先进于礼乐	tfgt	1
 自动更新	tfgu	4294967295
 德平	tfgu	50988
+垂直平分	tfgw	4294967295
 毛玠	tfgw	777
 乐夫天命复奚疑	tfgx	2
 向井亚纪	tfgx	5
+垂直平分线	tfgx	4294967295
 千载琵琶作胡语	tfgy	4
 廷玉	tfgy	16
 稻垣吾郎	tfgy	18
@@ -174393,6 +174411,7 @@ encoder:
 笑侮	ttwt	888
 每逢佳节倍思亲	ttwu	1038
 微积分	ttwv	4294967295
+重积分	ttwv	4294967295
 牧人	ttww	421763
 徐自华	ttwx	6
 行程编码	ttxd	4294967295
@@ -195713,6 +195732,7 @@ encoder:
 凭空臆造	wpet	31
 凤冠霞帔	wpfm	155
 何守志	wpfn	7
+保守场	wpfn	4294967295
 人穷志不穷	wpfp	84
 人穷志不短	wpft	73
 人穷志短	wpft	76
@@ -196665,6 +196685,7 @@ encoder:
 何燕	wsak	46368
 何苗	wsal	101
 人机工程	wsat	4294967295
+偶极子	wsbb	4294967295
 体子	wsbb	888
 何卫	wsbg	0
 何逊	wsbi	3
@@ -206258,6 +206279,7 @@ encoder:
 缮录	xuvi	888
 张毅君	xuvt	53
 张立群	xuvt	1874
+幺半群	xuvt	4294967295
 弹丸	xuvy	352057
 弹仓	xuwb	0
 绊倒	xuwg	703922
@@ -207474,6 +207496,7 @@ encoder:
 诬害	yapd	999
 诺冠	yapf	70927
 谨守	yapf	888
+高斯定理	yapg	4294967295
 谋定	yapg	0
 试官	yaph	888
 计蒜客	yapt	226

@@ -1,5 +1,6 @@
 use crate::db::unicode_cjk_wubi06::cjk::Table;
 use std::cmp::{self, Ordering};
+use std::collections::HashSet;
 
 pub mod yaml;
 
@@ -71,6 +72,12 @@ impl Dict {
 
     pub fn entries(&self) -> impl Iterator<Item = &DictEntry> {
         self.chars().chain(self.phrases())
+    }
+
+    /// Remove entries whose phrase is in `set` from both chars and phrases.
+    pub fn remove_entries(&mut self, set: &HashSet<String>) {
+        self.chars.retain(|e| !set.contains(&e.phrase));
+        self.phrases.retain(|e| !set.contains(&e.phrase));
     }
 
     pub fn into_raw_parts(self) -> (Vec<DictEntry>, Vec<DictEntry>) {

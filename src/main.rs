@@ -5,13 +5,31 @@ use crate::db::{
     unicode_cjk_wubi06::cjk::{self, Table},
 };
 use log::{error, info};
-use std::{error::Error, process::ExitCode};
+use std::{error::Error, process::ExitCode, fs, collections::HashSet};
 
 pub mod db;
 pub mod generate;
 pub(crate) mod rime;
 
 pub fn run() -> Result<(), Box<dyn Error>> {
+    // load abandoned and custom sets and ensure they don't intersect
+    let abandoned_path = db::PATH.join("abandoned.txt");
+    let abandoned_set: HashSet<String> = {
+        let s = fs::read_to_string(&abandoned_path)?;
+        s.lines().map(|l| l.trim().to_string()).filter(|l| !l.is_empty()).collect()
+    };
+    let custom_set: HashSet<String> = {
+        let s = fs::read_to_string(&*custom::PATH)?;
+        s.lines().map(|l| l.trim().to_string()).filter(|l| !l.is_empty()).collect()
+    };
+    let inter: Vec<_> = abandoned_set.intersection(&custom_set).cloned().collect();
+    if !inter.is_empty() {
+        return Err(Box::new(std::io::Error::new(
+            std::io::ErrorKind::Other,
+            format!("db/abandoned.txt and db/custom.txt intersection: {:?}", inter),
+        )));
+    }
+
     let mut dict = db::rime_data::load_and_merge_dicts()?;
     let mut table = Table::load(&*cjk::PATH)?;
     assert!(db::verify_with(&mut dict, &mut table));
@@ -26,6 +44,10 @@ pub fn run() -> Result<(), Box<dyn Error>> {
     for path in &*thuocl::RECOMMENDED_DATA_PATHS {
         thuocl::update_dict_from_path(&mut dict, &table, path.as_path())?;
     }
+
+    // Remove abandoned entries before generating YAML output
+    dict.remove_entries(&abandoned_set);
+
     generate::generate_yaml(&dict)?;
     Ok(())
 }

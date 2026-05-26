@@ -5,7 +5,7 @@ use crate::db::{
     unicode_cjk_wubi06::cjk::{self, Table},
 };
 use log::{error, info};
-use std::{error::Error, process::ExitCode, fs, collections::HashSet};
+use std::{collections::HashSet, error::Error, fs, process::ExitCode};
 
 pub mod db;
 pub mod generate;
@@ -16,17 +16,26 @@ pub fn run() -> Result<(), Box<dyn Error>> {
     let abandoned_path = db::PATH.join("abandoned.txt");
     let abandoned_set: HashSet<String> = {
         let s = fs::read_to_string(&abandoned_path)?;
-        s.lines().map(|l| l.trim().to_string()).filter(|l| !l.is_empty()).collect()
+        s.lines()
+            .map(|l| l.trim().to_string())
+            .filter(|l| !l.is_empty())
+            .collect()
     };
     let custom_set: HashSet<String> = {
         let s = fs::read_to_string(&*custom::PATH)?;
-        s.lines().map(|l| l.trim().to_string()).filter(|l| !l.is_empty()).collect()
+        s.lines()
+            .map(|l| l.trim().to_string())
+            .filter(|l| !l.is_empty())
+            .collect()
     };
     let inter: Vec<_> = abandoned_set.intersection(&custom_set).cloned().collect();
     if !inter.is_empty() {
         return Err(Box::new(std::io::Error::new(
             std::io::ErrorKind::Other,
-            format!("db/abandoned.txt and db/custom.txt intersection: {:?}", inter),
+            format!(
+                "db/abandoned.txt and db/custom.txt intersection: {:?}",
+                inter
+            ),
         )));
     }
 

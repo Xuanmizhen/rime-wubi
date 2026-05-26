@@ -39909,6 +39909,7 @@ encoder:
 参阵	cdbl	0
 参院	cdbp	126756
 双鬓隔香红	cdbx	1
+能不能	cdce	4294967295
 参验	cdcg	999
 又不能启口	cdck	2
 参观	cdcm	16760551
@@ -158918,7 +158919,6 @@ encoder:
 可数	skov	252766
 可米	skoy	149637
 可赛	skpa	47973
-可宝	skpg	888
 可写	skpg	0
 机器视觉算法	skpi	58
 机器视觉	skpi	4294967295
@@ -159842,6 +159842,7 @@ encoder:
 西塞山前白鹭飞	spmn	36
 梦寐以求	spng	4846
 相容性	spnt	4294967295
+可写性	spnt	4294967295
 相容收敛	spnw	4294967295
 枕心	spny	888
 枕席	spoa	86832
@@ -163101,6 +163102,7 @@ encoder:
 榜书	synn	999
 校书	synn	888
 杭忆	synn	0
+可读性	synt	4294967295
 核发	synt	1637778
 校改	synt	999
 榜尾	synt	999
@@ -212324,6 +212326,7 @@ encoder:
 谬赞	yntf	666
 永德	yntf	0
 证书管理	yntg	4294967295
+良性循环	yntg	4294967295
 永生	yntg	2120922
 启行	yntg	999
 妄行	yntg	888
@@ -213134,6 +213137,7 @@ encoder:
 这没	ypiw	446197
 这里	ypjf	148013228
 这时	ypjf	46995413
+这题	ypjg	4294967295
 这是	ypjg	133421433
 这日	ypjj	637208
 认祖归宗	ypjp	548

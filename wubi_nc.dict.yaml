@@ -43451,6 +43451,7 @@ encoder:
 故障特征	dbtt	4294967295
 百孔千疮	dbtu	86
 胡取禾三百廛兮	dbtw	2
+太阳系	dbtx	4294967295
 故障等效	dbty	4294967295
 顾闻	dbub	15
 有限状态	dbud	4294967295
@@ -44812,7 +44813,6 @@ encoder:
 套语	ddyg	999
 魇语	ddyg	888
 三百六十日	ddyj	1
-页面效果	ddyj	1701
 大课	ddyj	999
 灰原哀	ddyk	6
 大亨	ddyk	2509248
@@ -70196,6 +70196,7 @@ encoder:
 天聪	gdbu	23
 玉面耶溪女	gdbv	1
 天险	gdbw	317047
+来不及	gdby	4294967295
 麦克马纳斯	gdca	46
 吾不能学太上之忘情也	gdcb	8
 蚕桑	gdcc	309850
@@ -91016,6 +91017,7 @@ encoder:
 浓淡	ipio	295746
 觉堂	ipip	18
 光宗耀祖	ipip	593
+尝尝	ipip	4294967295
 深沉	ipip	4453150
 沉淀	ipip	3394565
 学堂	ipip	2422134
@@ -96514,6 +96516,7 @@ encoder:
 晨泳	jdiy	0
 蝴蝶	jdja	11576868
 晨早	jdjf	888
+是不是	jdjg	4294967295
 显而易见	jdjm	17273
 蝰蛇	jdjp	74518
 晨晖	jdjp	59396
@@ -105951,6 +105954,7 @@ encoder:
 啪嚓	krkp	999
 哌啶	krkp	0
 嗥鸣	krkq	888
+听听	krkr	4294967295
 听啤	krkr	999
 啪啦	krkr	999
 啦呱	krkr	888
@@ -106824,6 +106828,7 @@ encoder:
 只吃	kwkt	1099216
 吟哦	kwkt	190052
 吟啸	kwkv	888
+哈哈	kwkw	4294967295
 吩咐	kwkw	7834469
 咿呦	kwkx	777
 吟咏	kwky	307679
@@ -133490,12 +133495,14 @@ encoder:
 空放	pwyt	0
 安全访问	pwyu	1330
 究详	pwyu	888
+社会主义社会	pwyw	4294967295
 空论	pwyw	999
 宿夜	pwyw	888
 穿夜	pwyw	888
 窅论	pwyw	888
 空玄	pwyx	888
 安全认证	pwyy	4294967295
+社会主义	pwyy	4294967295
 空方	pwyy	533187
 空文	pwyy	89208
 察访	pwyy	999
@@ -134277,7 +134284,6 @@ encoder:
 社公	pywc	777
 福佑	pywd	888
 神佑	pywd	0
-容许值	pywf	4294967295
 社会	pywf	182835294
 祖传	pywf	1154887
 神传	pywf	507072
@@ -136673,7 +136679,6 @@ encoder:
 外痔	qhuf	55136
 外差	qhug	0
 外间	qhuj	527554
-触点间距	qhuk	4294967295
 外部	qhuk	4294967295
 外资	qhuq	16352707
 外亲	qhus	666
@@ -145755,6 +145760,7 @@ encoder:
 披挂	rhrf	531986
 年后	rhrg	3402255
 看后	rhrg	1669793
+看看	rhrh	4294967295
 扯掉	rhrh	325229
 扯掳	rhrh	888
 卸掉	rhrh	0
@@ -160875,6 +160881,7 @@ encoder:
 梦呓	sska	462498
 森吧	sskc	48209
 林邑	sskc	0
+机械唯物主义者	sskf	4294967295
 木叶	sskf	1226643
 栗鸮	sskg	888
 栗喇	sskg	777
@@ -160896,6 +160903,7 @@ encoder:
 机杼鸣帘栊	ssks	1
 麓川	sskt	777
 桃李虽不言	ssky	1
+机械唯物主义	ssky	4294967295
 林恩	ssld	121453
 林园	sslf	666
 楚国	sslg	967308
@@ -164989,6 +164997,7 @@ encoder:
 知德	tdtf	777
 智德	tdtf	0
 自有生民以来	tdtg	1
+行不行	tdtg	4294967295
 辞行	tdtg	249994
 牯牛	tdtg	183789
 逢生	tdtg	173425
@@ -165910,7 +165919,6 @@ encoder:
 德布	tfdm	0
 毛志成	tfdn	13
 知无不言言无不尽	tfdn	39
-自动布局	tfdn	4294967295
 造成	tfdn	76420729
 赞成	tfdn	5092154
 告成	tfdn	147066
@@ -174596,6 +174604,7 @@ encoder:
 竿头彩挂虹蜺晕	tuej	1
 乘舆	tuel	888
 筋疲力尽	tuen	2334
+生产力	tuen	4294967295
 简爱	tuep	274665
 牧童遥指杏花村	tues	99
 乘胜	tuet	684879
@@ -175585,7 +175594,6 @@ encoder:
 徐昉	twjy	26
 颓景	twjy	888
 长谷川京子	twkb	3
-剩余串排列	twkg	4294967295
 符号	twkg	4294967295
 签呈	twkg	888
 徐路	twkh	38835
@@ -176403,7 +176411,6 @@ encoder:
 系统综合	txxw	134
 系统级综合	txxw	4294967295
 自组织系统	txxx	4294967295
-系统编译	txxy	944
 系统编程语言	txxy	4294967295
 系统	txxy	4294967295
 繁弦	txxy	888
@@ -178673,6 +178680,7 @@ encoder:
 前仰	uewq	0
 装腔作势	uewr	486
 前件	uewt	4294967295
+前几	uewt	4294967295
 前任	uewt	2192800
 前作	uewt	1237361
 前仇	uewv	777
@@ -186779,6 +186787,7 @@ encoder:
 君不行兮夷犹	vdtq	1
 如不善而莫之违也	vdub	1
 姱姿	vduq	777
+好不好	vdvb	4294967295
 姑妈	vdvc	745539
 姑嫂	vdve	119924
 姑姐	vdve	888
@@ -191133,6 +191142,7 @@ encoder:
 僚佐	wdwd	999
 倚伏	wdwd	777
 今有人日攘其邻之鸡者	wdwf	2
+会不会	wdwf	4294967295
 估值	wdwf	4294967295
 伏侍	wdwf	999
 低耦合	wdwg	5466
@@ -216475,7 +216485,6 @@ encoder:
 夜校	ywsy	325376
 谁人得似张公子	ywtb	1
 认透	ywtb	888
-变分自由能	ywtc	4294967295
 为什么	ywtc	4294967295
 六么	ywtc	777
 刘体智	ywtd	6
@@ -217738,7 +217747,6 @@ encoder:
 议处	yyth	666
 高效算法	yyti	1013
 文和	yytk	427
-谓词符号	yytk	4294967295
 方程	yytk	4294967295
 议程	yytk	1413589
 言和	yytk	573454
